@@ -14,7 +14,7 @@ A few highlights of projects
 # Prompt for asking whether you want to delete a user or not 
 ![img5](https://github.com/user-attachments/assets/76feea5e-67b7-483e-8882-0418b6cfb1fe)
 
-# One user will remain 
+# One user will be remaining 
 ![img6](https://github.com/user-attachments/assets/05767dde-6b6a-4f27-89aa-4ecc957dee58)
 
 
