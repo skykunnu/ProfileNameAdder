@@ -1,6 +1,6 @@
 # ProfileNameAdder
-# A place where you can add a user with just a click of a button
-# A few highlights of projects
+A place where you can add a user with just a click of a button
+A few highlights of projects
 
 # click on add button
 ![img1](https://github.com/user-attachments/assets/080326dd-71b9-45f3-817b-62f3323e118b)
