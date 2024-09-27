@@ -10,6 +10,20 @@ let ProfileDel=document.querySelector('#profileDelete');
 let Cancel_2=document.querySelector('#cancel_2');
 let Confirm_2=document.querySelector('#confirm_2');
 
+let RandomColors=[
+    {backgroundColor:"black",color:'white'},
+    {backgroundColor:"purple",color:'white'},
+    {backgroundColor:"white",color:'black'},
+    {backgroundColor:"yellow",color:'black'},
+    {backgroundColor:"red",color:'white'}
+]
+
+
+function getRandomColor(){
+    return Math.floor(Math.random()*RandomColors.length);
+}
+
+
 
 addBtn.addEventListener('click',function(){
      ProfileAdd.style.display='block';
@@ -30,6 +44,9 @@ confirm.addEventListener('click',function(){
         I.classList='fa-regular fa-circle-xmark';
         person.classList='Persons';
         person.innerHTML=Name.value[0];
+        const Colors=RandomColors[getRandomColor()];
+        person.style.backgroundColor=Colors.backgroundColor;
+        person.style.color=Colors.color;
         person.style.textTransform='capitalize'
         Span.append(I);
         person.append(Span);
