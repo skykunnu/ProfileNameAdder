@@ -25,6 +25,14 @@ body{
     position: relative;
 }
 
+.Box h1{
+    position: absolute;
+    font-size: 28px;
+    top: 1%;
+    color: #1f05ff;
+
+}
+
 
 #AddBtn_1 #Addbtn{
     font-size: 25px;
